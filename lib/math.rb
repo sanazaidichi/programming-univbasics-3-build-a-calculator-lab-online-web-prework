@@ -15,8 +15,7 @@ def division num1, num2
 end
 
 def modulo num1, num2 
-  p modulo num1 % num2
-  p % remainder
+  p modulo num1.modulo(num2)
 end 
 
 def square_root num1 
